@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,200;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
 
 /*-------------------------------------------------Colours*/
-.bg-color-name-title{
+.bg-color-name-title {
     background-color: #a9c3de;
+}
+
+.ui-menu-color-home {
+    background-color: #a87c62;
+}
+
+.ui-menu-color-resume {
+    background-color: #e4e3e2;
+}
+
+.ui-menu-color-contact {
+    background-color: #7c5d61;
+}
+
+.ui-menu-color-download {
+    background-color: #c84358;
 }
 
 /*-------------------------------------------------Heading*/
@@ -16,7 +32,7 @@ header {
 }
 
 .logo {
-    background: url("../images/monica-2.JPG");
+    background: url("../images/monica-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,4 +57,17 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
